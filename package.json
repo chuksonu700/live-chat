@@ -1,0 +1,22 @@
+{
+  "name": "live-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "js-sha512": "^0.8.0",
+    "jsdom": "^20.0.3",
+    "mysql": "^2.18.1",
+    "pusher": "^5.1.2",
+    "save": "^2.9.0"
+  }
+}
