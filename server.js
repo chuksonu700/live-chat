@@ -26,11 +26,11 @@ app.use(session({
 app.use(express.static(path.join('__dirname','/../public')));
 //sql Connection
 const connection = mysql.createConnection({
-    host     : '127.0.0.1',
-    port     : '3306',
-    user     : 'root',
-    password : '',
-    database : 'eventdb'
+    host     : process.env.hostname,
+    port     : process.env.port,
+    user     : process.env.username,
+    password : process.env.password,
+    database : process.env.database
 });
 const PORT = process.env.PORT || 3300;
 const pusher = new Pusher({
