@@ -7,7 +7,6 @@ const Pusher = require('pusher');
 const mysql = require('mysql');
 const sha512 = require('js-sha512').sha512;
 var jsdom = require("jsdom");
-const { urlencoded } = require('express');
 
 
 dotenv.config();
